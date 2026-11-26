@@ -1,0 +1,27 @@
+{
+  "name": "@setsig/shopify",
+  "version": "1.0.0",
+  "description": "setsig Proof-of-Physical-Presence integration for Shopify Admin, Order Status, and POS Kiosk",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "tsc"
+  },
+  "keywords": [
+    "setsig",
+    "shopify",
+    "pos",
+    "presence-verification",
+    "checkin"
+  ],
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "typescript": "^5.7.3"
+  }
+}
